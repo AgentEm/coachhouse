@@ -1,0 +1,119 @@
+//FONTS
+
+@font-face {
+	font-family: "Calendas Plus";
+	src: url("../fonts/Calendas_Plus.otf");
+}
+
+$primary-font-stack: "Lora", serif;
+$display-font-stack:"Calendas Plus", serif;
+
+//COLOURS
+
+$lightcream: #FFFFF0;
+$darkcream: #FBFFE3;
+$brown: #948979;
+$black: #333333;
+$red: #CF000F;
+
+
+html {
+	font-size: 16px;
+}
+
+body {
+	font-family:$primary-font-stack;
+	line-height: 1.5rem;
+}
+ul.sg-colors li {
+	width:20%;
+	padding:0;
+	text-align:center;
+	border:none;
+	list-style:none;
+	margin-bottom: 5%;
+}
+
+span.sg-swatch {
+	width:10em;
+	height:10em;
+	border-radius:50%;
+	margin:0 auto;
+}
+
+span.sg-label {
+	line-height: 3rem;
+}
+
+.sg-pattern-body {
+	font-family:$primary-font-stack;
+	font-size: 1rem;
+}
+
+#atoms-fonts p {
+	width:70%;
+}
+
+.font-display {
+	font-family: $display-font-stack;
+	font-size: 3rem;
+	line-height:3.5rem;
+	font-weight:500;
+	text-transform:uppercase;
+	-moz-font-feature-settings: "liga=1, dlig=1", "cpsp", "case", "hist", "ss02";
+	-ms-font-feature-settings: "liga", "dlig", "cpsp", "case", "hist", "ss02";
+	-webkit-font-feature-settings: "liga", "dlig", "cpsp", "case", "hist", "ss02";
+	-o-font-feature-settings: "liga", "dlig", "cpsp", "case", "hist", "ss02";
+	font-feature-settings: "liga", "dlig", "cpsp", "case", "hist", "ss02";
+	//note: the font-feature-settings property 
+	//only ~70% supported, so will not work 
+	//everywhere, but nice where it does
+}
+
+.animate-fade { 
+	-webkit-transition: opacity 0.3s ease-in-out;
+	-moz-transition: opacity 0.3s ease-in-out;
+	-ms-transition: opacity 0.3s ease-in-out;
+	-o-transition: opacity 0.3s ease-in-out;
+	transition: opacity 0.3s ease-in-out;
+}
+
+.animate-fade:hover { 
+	opacity: 0;
+}
+
+//HEADINGS
+
+h1 {
+	// font-size:3rem;
+	// line-height:3.5rem;
+	// font-weight:500;
+	//suggest you just give a class of .font-display
+}
+h2 {
+	font-size: 2.5rem;
+	font-weight:300;
+	line-height:3rem;
+}
+h3 {
+	font-size:2rem;
+	font-weight:300;
+	line-height:2.5rem;
+	font-style: italic;
+}
+h4 {
+	font-size: 1.5rem;
+	font-weight:300;
+	line-height:2rem;
+}
+h5 {
+	font-size: 1rem;
+	font-weight:700;
+	line-height:1.5rem;
+}
+h6 {
+	font-size:1rem;
+	font-weight:500;
+	font-style:italic;
+	line-height:1rem;
+}

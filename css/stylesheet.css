@@ -1,0 +1,278 @@
+@font-face {
+  font-family: "Calendas Plus";
+  src: url("../fonts/Calendas_Plus.otf");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/emilyporta\/Desktop\/coachHousePress\/patternlab-php-master\/source\/css\/stylesheet\.scss}line{font-family:\0000321}}
+html {
+  font-size: 16px;
+  background-color: #fffffa;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/emilyporta\/Desktop\/coachHousePress\/patternlab-php-master\/source\/css\/stylesheet\.scss}line{font-family:\0000326}}
+body {
+  font-family: "Lora", serif;
+  line-height: 1.5rem;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/emilyporta\/Desktop\/coachHousePress\/patternlab-php-master\/source\/css\/stylesheet\.scss}line{font-family:\0000333}}
+ul.sg-colors li {
+  width: 20%;
+  padding: 0;
+  text-align: center;
+  border: none;
+  list-style: none;
+  margin-bottom: 5%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/emilyporta\/Desktop\/coachHousePress\/patternlab-php-master\/source\/css\/stylesheet\.scss}line{font-family:\0000342}}
+span.sg-swatch {
+  width: 9rem;
+  height: 9rem;
+  border-radius: 50%;
+  margin: 0 auto;
+  border: 1px solid #333333;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/emilyporta\/Desktop\/coachHousePress\/patternlab-php-master\/source\/css\/stylesheet\.scss}line{font-family:\0000350}}
+span.sg-label {
+  line-height: 1.5rem;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/emilyporta\/Desktop\/coachHousePress\/patternlab-php-master\/source\/css\/stylesheet\.scss}line{font-family:\0000354}}
+.sg-pattern-body {
+  font-family: "Lora", serif;
+  font-size: 1rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/emilyporta\/Desktop\/coachHousePress\/patternlab-php-master\/source\/css\/stylesheet\.scss}line{font-family:\0000361}}
+#atoms-fonts p {
+  width: 70%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/emilyporta\/Desktop\/coachHousePress\/patternlab-php-master\/source\/css\/stylesheet\.scss}line{font-family:\0000365}}
+.font-display {
+  font-family: "Calendas Plus", serif;
+  font-size: 3rem;
+  line-height: 3.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  -moz-font-feature-settings: "liga", "kern", "dlig", "cpsp", "case", "hist";
+  -ms-font-feature-settings: "liga", "kern", "dlig", "cpsp", "case", "hist";
+  -webkit-font-feature-settings: "liga", "kern", "dlig", "cpsp", "case", "hist";
+  -o-font-feature-settings: "liga", "kern", "dlig", "cpsp", "case", "hist";
+  font-feature-settings: "liga", "kern", "dlig", "cpsp", "case", "hist";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/emilyporta\/Desktop\/coachHousePress\/patternlab-php-master\/source\/css\/stylesheet\.scss}line{font-family:\0000381}}
+.animate-fade {
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -ms-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/emilyporta\/Desktop\/coachHousePress\/patternlab-php-master\/source\/css\/stylesheet\.scss}line{font-family:\0000389}}
+.animate-fade:hover {
+  opacity: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/emilyporta\/Desktop\/coachHousePress\/patternlab-php-master\/source\/css\/stylesheet\.scss}line{font-family:\00003101}}
+h2 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 3rem;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/emilyporta\/Desktop\/coachHousePress\/patternlab-php-master\/source\/css\/stylesheet\.scss}line{font-family:\00003106}}
+h3 {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 2.5rem;
+  font-style: italic;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/emilyporta\/Desktop\/coachHousePress\/patternlab-php-master\/source\/css\/stylesheet\.scss}line{font-family:\00003112}}
+h4 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 2rem;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/emilyporta\/Desktop\/coachHousePress\/patternlab-php-master\/source\/css\/stylesheet\.scss}line{font-family:\00003117}}
+h5 {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/emilyporta\/Desktop\/coachHousePress\/patternlab-php-master\/source\/css\/stylesheet\.scss}line{font-family:\00003122}}
+h6 {
+  font-size: 1rem;
+  font-weight: 500;
+  font-style: italic;
+  line-height: 1rem;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/emilyporta\/Desktop\/coachHousePress\/patternlab-php-master\/source\/css\/stylesheet\.scss}line{font-family:\00003134}}
+a {
+  text-decoration: none;
+  color: #cf000f;
+  transition: color 0.3s ease-in-out;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/emilyporta\/Desktop\/coachHousePress\/patternlab-php-master\/source\/css\/stylesheet\.scss}line{font-family:\00003140}}
+a:hover {
+  color: #333333;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/emilyporta\/Desktop\/coachHousePress\/patternlab-php-master\/source\/css\/stylesheet\.scss}line{font-family:\00003146}}
+hr {
+  padding: 0;
+  border: none;
+  border-top: medium double #333;
+  color: #333;
+  text-align: center;
+  width: 70%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/emilyporta\/Desktop\/coachHousePress\/patternlab-php-master\/source\/css\/stylesheet\.scss}line{font-family:\00003154}}
+hr:after {
+  font-family: "Calendas Plus", serif;
+  -moz-font-feature-settings: "liga", "kern", "dlig", "cpsp", "case", "hist";
+  -ms-font-feature-settings: "liga", "kern", "dlig", "cpsp", "case", "hist";
+  -webkit-font-feature-settings: "liga", "kern", "dlig", "cpsp", "case", "hist";
+  -o-font-feature-settings: "liga", "kern", "dlig", "cpsp", "case", "hist";
+  font-feature-settings: "liga", "kern", "dlig", "cpsp", "case", "hist";
+  content: "CH";
+  vertical-align: middle;
+  display: inline-block;
+  position: relative;
+  top: -0.7rem;
+  font-size: 1.5rem;
+  padding: 0 0.25rem;
+  background: white;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/emilyporta\/Desktop\/coachHousePress\/patternlab-php-master\/source\/css\/stylesheet\.scss}line{font-family:\00003173}}
+.text li ul > li {
+  list-style-type: circle;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/emilyporta\/Desktop\/coachHousePress\/patternlab-php-master\/source\/css\/stylesheet\.scss}line{font-family:\00003176}}
+.text li ol > li {
+  list-style-type: lower-roman;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/emilyporta\/Desktop\/coachHousePress\/patternlab-php-master\/source\/css\/stylesheet\.scss}line{font-family:\00003182}}
+img.logoSmall {
+  width: 60px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/emilyporta\/Desktop\/coachHousePress\/patternlab-php-master\/source\/css\/stylesheet\.scss}line{font-family:\00003186}}
+img.logoMedium {
+  width: 100px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/emilyporta\/Desktop\/coachHousePress\/patternlab-php-master\/source\/css\/stylesheet\.scss}line{font-family:\00003190}}
+img.logoLarge {
+  width: 150px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/emilyporta\/Desktop\/coachHousePress\/patternlab-php-master\/source\/css\/stylesheet\.scss}line{font-family:\00003201}}
+.fa {
+  font-size: 2rem;
+  color: #534640;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/emilyporta\/Desktop\/coachHousePress\/patternlab-php-master\/source\/css\/stylesheet\.scss}line{font-family:\00003208}}
+abbr {
+  color: #cf000f;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/emilyporta\/Desktop\/coachHousePress\/patternlab-php-master\/source\/css\/stylesheet\.scss}line{font-family:\00003212}}
+input, textarea {
+  border: 2px solid #a2a2a1;
+  border-radius: 0.3rem;
+  padding: 1.5% 1%;
+  color: #333333;
+  font-size: 1rem;
+  font-family: "Lora", serif;
+  display: block;
+  outline: none;
+  width: 40%;
+  background-color: transparent;
+  transition: border 0.2s;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/emilyporta\/Desktop\/coachHousePress\/patternlab-php-master\/source\/css\/stylesheet\.scss}line{font-family:\00003226}}
+input:focus, textarea:focus {
+  border: 2px solid #555555;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/emilyporta\/Desktop\/coachHousePress\/patternlab-php-master\/source\/css\/stylesheet\.scss}line{font-family:\00003230}}
+.field-container {
+  margin-bottom: 2%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/emilyporta\/Desktop\/coachHousePress\/patternlab-php-master\/source\/css\/stylesheet\.scss}line{font-family:\00003236}}
+.btn {
+  color: #fffffa;
+  background-color: #cf000f;
+  border-radius: 0.3rem;
+  padding: 1.5% 3%;
+  text-transform: lowercase;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/emilyporta\/Desktop\/coachHousePress\/patternlab-php-master\/source\/css\/stylesheet\.scss}line{font-family:\00003247}}
+.btn:hover {
+  background-color: #fffffa;
+  border: 1px solid #333333;
+  color: #333333;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/emilyporta\/Desktop\/coachHousePress\/patternlab-php-master\/source\/css\/stylesheet\.scss}line{font-family:\00003252}}
+.btn.alt {
+  background-color: #fffffa;
+  border: 1px solid #333333;
+  color: #333333;
+  transition: all 0.3s ease-in-out;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/emilyporta\/Desktop\/coachHousePress\/patternlab-php-master\/source\/css\/stylesheet\.scss}line{font-family:\00003259}}
+.btn.alt:hover {
+  background-color: #cf000f;
+  border: 1px solid transparent;
+  color: #fffffa;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/emilyporta\/Desktop\/coachHousePress\/patternlab-php-master\/source\/css\/stylesheet\.scss}line{font-family:\00003267}}
+blockquote {
+  padding: 1% 5%;
+  background-color: ivory;
+  border-radius: 0.5rem;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/emilyporta\/Desktop\/coachHousePress\/patternlab-php-master\/source\/css\/stylesheet\.scss}line{font-family:\00003275}}
+.g-2up .gi {
+  width: 46.9%;
+  display: inline-block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/emilyporta\/Desktop\/coachHousePress\/patternlab-php-master\/source\/css\/stylesheet\.scss}line{font-family:\00003280}}
+.g-3up .gi {
+  width: 30%;
+  display: inline-block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/emilyporta\/Desktop\/coachHousePress\/patternlab-php-master\/source\/css\/stylesheet\.scss}line{font-family:\00003285}}
+.g-4up .gi {
+  width: 21.8%;
+  display: inline-block;
+}

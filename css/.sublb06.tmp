@@ -1,0 +1,157 @@
+//FONTS
+
+@font-face {
+	font-family: "Calendas Plus";
+	src: url("../fonts/Calendas_Plus.otf");
+}
+
+$primary-font-stack: "Lora", serif;
+$display-font-stack:"Calendas Plus", serif;
+
+//COLOURS
+
+$lightcream: #FFFFF0;
+$darkcream: #FBFFE3;
+$brown: #948979;
+$black: #333333;
+$red: #CF000F;
+
+
+html {
+	font-size: 16px;
+}
+
+body {
+	font-family:$primary-font-stack;
+	line-height: 1.5rem;
+}
+ul.sg-colors li {
+	width:20%;
+	padding:0;
+	text-align:center;
+	border:none;
+	list-style:none;
+	margin-bottom: 5%;
+}
+
+span.sg-swatch {
+	width:10em;
+	height:10em;
+	border-radius:50%;
+	margin:0 auto;
+}
+
+span.sg-label {
+	line-height: 3rem;
+}
+
+.sg-pattern-body {
+	font-family:$primary-font-stack;
+	font-size: 1rem;
+	width:90%;
+	margin:0 auto;
+}
+
+#atoms-fonts p {
+	width:70%;
+}
+
+.font-display {
+	font-family: $display-font-stack;
+	font-size: 3rem;
+	line-height:3.5rem;
+	font-weight:500;
+	text-transform:uppercase;
+	-moz-font-feature-settings: "liga", "kern", "dlig", "cpsp", "case", "hist";
+	-ms-font-feature-settings: "liga", "kern", "dlig", "cpsp", "case", "hist";
+	-webkit-font-feature-settings: "liga", "kern", "dlig", "cpsp", "case", "hist";
+	-o-font-feature-settings: "liga", "kern", "dlig", "cpsp", "case", "hist";
+	font-feature-settings: "liga", "kern", "dlig", "cpsp", "case", "hist";
+	//note: the font-feature-settings property 
+	//only ~70% supported, so will not work 
+	//everywhere (safari and iOS in particula), but nice where it does
+}
+
+.animate-fade { 
+	-webkit-transition: opacity 0.3s ease-in-out;
+	-moz-transition: opacity 0.3s ease-in-out;
+	-ms-transition: opacity 0.3s ease-in-out;
+	-o-transition: opacity 0.3s ease-in-out;
+	transition: opacity 0.3s ease-in-out;
+}
+
+.animate-fade:hover { 
+	opacity: 0;
+}
+
+//HEADINGS
+
+h1 {
+	// font-size:3rem;
+	// line-height:3.5rem;
+	// font-weight:500;
+	//suggest you just give a class of .font-display
+}
+h2 {
+	font-size: 2.5rem;
+	font-weight:300;
+	line-height:3rem;
+}
+h3 {
+	font-size:2rem;
+	font-weight:300;
+	line-height:2.5rem;
+	font-style: italic;
+}
+h4 {
+	font-size: 1.5rem;
+	font-weight:300;
+	line-height:2rem;
+}
+h5 {
+	font-size: 1rem;
+	font-weight:700;
+	line-height:1.5rem;
+}
+h6 {
+	font-size:1rem;
+	font-weight:500;
+	font-style:italic;
+	line-height:1rem;
+}
+
+//PARAGRAPH
+
+
+//INLINE ELEMENTS
+
+.text a {
+
+}
+
+//HORIZONTAL RULE
+
+hr {
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+    width:20%;
+}
+hr:after {
+    font-family: $display-font-stack;
+    -moz-font-feature-settings: "liga", "kern", "dlig", "cpsp", "case", "hist";
+    -ms-font-feature-settings: "liga", "kern", "dlig", "cpsp", "case", "hist";
+    -webkit-font-feature-settings: "liga", "kern", "dlig", "cpsp", "case", "hist";
+    -o-font-feature-settings: "liga", "kern", "dlig", "cpsp", "case", "hist";
+    font-feature-settings: "liga", "kern", "dlig", "cpsp", "case", "hist";
+    content: "CH";
+    vertical-align: middle;
+    display: inline-block;
+    position: relative; 
+    top: -0.7rem;  
+    font-size: 1.5rem;
+    padding: 0 0.25rem;
+    background: white; //change to whatever the background color of the body is
+}
